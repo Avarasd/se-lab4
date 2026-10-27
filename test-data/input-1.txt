@@ -1,0 +1,5 @@
+# SINGLE firing should alternate: primary first, then secondary
+GT4500,10,0,10,0
+TORPEDO,SINGLE  # fires primary
+TORPEDO,SINGLE  # fires secondary
+TORPEDO,SINGLE  # fires primary again

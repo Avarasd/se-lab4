@@ -1,0 +1,4 @@
+# Primary always fails (rate 1), secondary always works (rate 0)
+GT4500,10,1,10,0
+TORPEDO,SINGLE  # tries primary, it fails -> does NOT fall back to secondary -> FAIL
+TORPEDO,ALL     # ALL: primary fails but secondary fires -> SUCCESS

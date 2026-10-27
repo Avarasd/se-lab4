@@ -1,0 +1,5 @@
+# Empty primary store: SINGLE falls back to the secondary store
+GT4500,1,0,10,0
+TORPEDO,SINGLE  # fires primary (now empty)
+TORPEDO,SINGLE  # next in line would be secondary -> fires secondary
+TORPEDO,SINGLE  # next would be primary, but it is empty -> fires secondary

@@ -1,0 +1,4 @@
+# ALL mode fires both stores; succeeds while at least one store has torpedoes
+GT4500,1,0,1,0
+TORPEDO,ALL   # both stores fire, now both empty
+TORPEDO,ALL   # both empty -> failure
