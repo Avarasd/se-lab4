@@ -1,0 +1,3 @@
+SUCCESS  # <- GT4500
+SUCCESS  # <- TORPEDO,ALL (both fired)
+FAIL     # <- TORPEDO,ALL (both empty)

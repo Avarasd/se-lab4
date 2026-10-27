@@ -1,0 +1,4 @@
+SUCCESS  # <- GT4500
+SUCCESS  # <- TORPEDO,SINGLE (primary)
+SUCCESS  # <- TORPEDO,SINGLE (secondary)
+SUCCESS  # <- TORPEDO,SINGLE (secondary, primary empty)

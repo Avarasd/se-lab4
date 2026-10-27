@@ -1,0 +1,6 @@
+No ship has been initialized            # <- TORPEDO before init
+Unknown command: 'FOOBAR'                # <- FOOBAR
+usage: GT4500,<PRI_CNT>,<PRI_FAIL_RATE>,<SEC_CNT>,<SEC_FAIL_RATE>  # <- GT4500 wrong arg count
+SUCCESS                                  # <- GT4500 valid
+Unknown firing mode: 'DOUBLE'            # <- TORPEDO,DOUBLE
+SUCCESS                                  # <- TORPEDO,SINGLE

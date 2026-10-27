@@ -1,0 +1,7 @@
+# Error handling for invalid commands and arguments
+TORPEDO,SINGLE   # no ship initialized yet
+FOOBAR           # unknown command
+GT4500,10,0      # wrong number of arguments
+GT4500,10,0,10,0 # valid initialization
+TORPEDO,DOUBLE   # unknown firing mode
+TORPEDO,SINGLE   # valid firing
